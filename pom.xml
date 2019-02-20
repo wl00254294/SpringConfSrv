@@ -65,7 +65,7 @@
 			<artifactId>docker-maven-plugin</artifactId>
 			<version>1.0.0</version>
 			<configuration>
-			    <!-- imageName得變數字體要小寫 -->
+			  
 				<imageName>${docker.image.prefix}/springboot</imageName>
 				<dockerDirectory>src/main/docker</dockerDirectory>
 				<resources>
